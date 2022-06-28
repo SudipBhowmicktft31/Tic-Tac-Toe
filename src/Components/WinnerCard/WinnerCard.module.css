@@ -1,0 +1,29 @@
+.winnerCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.winnerName {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+  color: antiquewhite;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.btn {
+  cursor: pointer;
+  height: 50px;
+  width: 150px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  background-color: rgb(11, 7, 230);
+  color: aliceblue;
+}
+.btn:hover{
+    background-color: rgb(76, 74, 239);
+}

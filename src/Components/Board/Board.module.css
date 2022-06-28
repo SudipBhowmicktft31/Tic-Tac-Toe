@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Shadows+Into+Light&display=swap");
+.displayTurn {
+  width: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 25px;
+  background-color: azure;
+  border-radius: 5px;
+  height: 50px;
+}
+.container {
+  /* border: 1px solid black; */
+  height: 250px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.column {
+  display: flex;
+  flex-direction: row;
+}
+.cell {
+    cursor: pointer;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: white;
+  height: 70px;
+  width: 70px;
+  margin: 2px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+}
